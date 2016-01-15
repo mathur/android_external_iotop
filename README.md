@@ -1,6 +1,12 @@
 iotop
 =====
 
+## Android Port
+This is a version of [iotop](https://github.com/Tomas-M/iotop), ported for Android devices.
+To use it, include it in your external source tree when building an AOSP variant of Android.
+
+## Information
+
 Your Linux server is too slow or load is too high? One of the possible
 causes of such symptoms may be high IO (input/output) waiting time,
 which basically means that some of your processes need to read or write
@@ -20,14 +26,6 @@ processes by their IO consumption. Inspired by iotop python script from
 Guillaume Chazarain, but rewritten to C by Vyacheslav Trushkin so it now
 runs without python at all.
 
-
-How to make
-===========
-
-    git clone
-    make
-
-
 Options
 =======
 
@@ -46,7 +44,3 @@ Options
 -t, --time            add a timestamp on each line (implies --batch)
 -q, --quiet           suppress some lines of header (implies --batch)
 ```
-
-## Android Port
-This is a version of (iotop)[https://github.com/Tomas-M/iotop], ported for Android devices.
-To use it, include it in your external source tree when building an AOSP variant of Android.
