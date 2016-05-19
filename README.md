@@ -5,6 +5,8 @@ iotop
 This is a version of [iotop](https://github.com/Tomas-M/iotop), ported for Android devices.
 To use it, include it in your external source tree when building an AOSP variant of Android.
 
+Perfect for usage with getting metrics on i/o usage that other utilities do not provide. Note that all values found from this utility are what is reported from the system, so they might contain some inaccurate data. 
+
 ## Information
 
 Your Linux server is too slow or load is too high? One of the possible
